@@ -3,7 +3,7 @@
 
 <!--more-->
  ***{{< link "https://github.com/facebook/zstd" 项目主页 "去看看" >}}***
-   
+
 
 ## linux下安装
 
@@ -55,4 +55,5 @@ zstd --help
  -i#    : 最小计算时间(秒)(默认为3s)
  -B#    : 将文件切成大小为#个独立块(默认:无块)
 --priority=rt : 将进程优先级设置为实时
+
 ```
