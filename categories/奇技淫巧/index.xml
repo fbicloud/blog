@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>奇技淫巧 - 分类 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</link>
+        <description>奇技淫巧 - 分类 - FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 29 Aug 2021 19:51:05 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+    <title>禁用Windows Defender</title>
+    <link>https://blog.fbicloud.com/windows-defender/</link>
+    <pubDate>Sun, 29 Aug 2021 19:51:05 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/windows-defender/</guid>
+    <description><![CDATA[<p><del>使用 Windows 安全中心保护您的数据和设备安全</del></p>]]></description>
+</item><item>
+    <title>GnuPG学习笔记</title>
+    <link>https://blog.fbicloud.com/gpg-help/</link>
+    <pubDate>Sun, 29 Aug 2021 13:01:59 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/gpg-help/</guid>
+    <description><![CDATA[<p>GNU Privacy Guard（GnuPG或GPG）是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。</p>]]></description>
+</item><item>
+    <title>windows启用wol唤醒</title>
+    <link>https://blog.fbicloud.com/wol/</link>
+    <pubDate>Sat, 28 Aug 2021 23:10:32 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/wol/</guid>
+    <description><![CDATA[windows启用wol唤醒]]></description>
+</item><item>
+    <title>使用zstd算法压缩文件</title>
+    <link>https://blog.fbicloud.com/zstd/</link>
+    <pubDate>Mon, 23 Aug 2021 00:10:16 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/zstd/</guid>
+    <description><![CDATA[使用zstd压缩文件]]></description>
+</item><item>
+    <title>解决Ryzen Master Driver没有正确安装</title>
+    <link>https://blog.fbicloud.com/amd-master/</link>
+    <pubDate>Thu, 12 Aug 2021 19:58:42 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/amd-master/</guid>
+    <description><![CDATA[<p>解决Ryzen Master Driver没有正确安装</p>]]></description>
+</item><item>
+    <title>微软远程桌面开启显卡加速</title>
+    <link>https://blog.fbicloud.com/rdp-gpu/</link>
+    <pubDate>Thu, 12 Aug 2021 15:31:54 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/rdp-gpu/</guid>
+    <description><![CDATA[显卡加速 win+r打开运行 输入gpedit.msc 依次找到计算机配置-&gt;管理模板-&gt;Windows组件-&gt;远程桌面服务-&]]></description>
+</item><item>
+    <title>解决win10下Git自动转换换行符</title>
+    <link>https://blog.fbicloud.com/git-crlf-lf/</link>
+    <pubDate>Wed, 11 Aug 2021 12:28:41 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/git-crlf-lf/</guid>
+    <description><![CDATA[windows系统的换行方式CRLF: &quot;\r\n&quot; Linux系统的换行方式LF: &quot;\n&quot; 在你使用git的时候，git会自动将代码当中与你当前系统不同的换行方]]></description>
+</item><item>
+    <title>CRLF CR LF详解</title>
+    <link>https://blog.fbicloud.com/crlf-lf/</link>
+    <pubDate>Wed, 11 Aug 2021 12:17:58 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/crlf-lf/</guid>
+    <description><![CDATA[前言 很长一段时间里，对于CRLF、CR、LF的理解仅限于不同操作系统下对换行符的定义。所谓知其然需知其所以然，从学习中找到乐趣，对知识的记忆]]></description>
+</item><item>
+    <title>一加五内核编译</title>
+    <link>https://blog.fbicloud.com/oneplus5-kernel-build/</link>
+    <pubDate>Tue, 10 Aug 2021 21:11:20 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/oneplus5-kernel-build/</guid>
+    <description><![CDATA[警告 本次构建基于ubuntu 18.04 编译器Arm gcc 10.3 此源码暂未支持Clang 依赖安装 1 2 sudo apt update -y sudo apt install -y gcc g++ python make texinfo texlive bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev]]></description>
+</item><item>
+    <title>Linux设置代理</title>
+    <link>https://blog.fbicloud.com/linux-proxy/</link>
+    <pubDate>Tue, 10 Aug 2021 15:07:46 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/linux-proxy/</guid>
+    <description><![CDATA[linux终端设置代理 1 2 export http_proxy=http://192.168.123.3:7890 export https_proxy=http://192.168.123.3:7890 取消 1 2 export http_proxy= export https_proxy= git设置代理 1 2 git config --global http.proxy http://192.168.123.3:7890 git config --global https.proxy http://192.168.123.3:7890 取消 1 2 git config --global --unset http.proxy git config --global --unset https.proxy]]></description>
+</item></channel>
+</rss>

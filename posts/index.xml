@@ -1,0 +1,98 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/posts/</link>
+        <description>所有文章 | FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 29 Aug 2021 21:55:52 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>痘痘</title>
+    <link>https://blog.fbicloud.com/%E7%97%98%E7%97%98/</link>
+    <pubDate>Sun, 29 Aug 2021 21:55:52 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/%E7%97%98%E7%97%98/</guid>
+    <description><![CDATA[<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">本文仅供参考 请在医师指导下用药</div>
+        </div>
+    </div>]]></description>
+</item><item>
+    <title>咳嗽</title>
+    <link>https://blog.fbicloud.com/%E5%92%B3%E5%97%BD/</link>
+    <pubDate>Sun, 29 Aug 2021 21:50:38 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/%E5%92%B3%E5%97%BD/</guid>
+    <description><![CDATA[<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">本文仅供参考 请在医师指导下用药</div>
+        </div>
+    </div>]]></description>
+</item><item>
+    <title>中耳炎</title>
+    <link>https://blog.fbicloud.com/%E4%B8%AD%E8%80%B3%E7%82%8E/</link>
+    <pubDate>Sun, 29 Aug 2021 21:40:57 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/%E4%B8%AD%E8%80%B3%E7%82%8E/</guid>
+    <description><![CDATA[<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">本文仅供参考 请在医师指导下用药</div>
+        </div>
+    </div>]]></description>
+</item><item>
+    <title>禁用Windows Defender</title>
+    <link>https://blog.fbicloud.com/windows-defender/</link>
+    <pubDate>Sun, 29 Aug 2021 19:51:05 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/windows-defender/</guid>
+    <description><![CDATA[<p><del>使用 Windows 安全中心保护您的数据和设备安全</del></p>]]></description>
+</item><item>
+    <title>GnuPG学习笔记</title>
+    <link>https://blog.fbicloud.com/gpg-help/</link>
+    <pubDate>Sun, 29 Aug 2021 13:01:59 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/gpg-help/</guid>
+    <description><![CDATA[<p>GNU Privacy Guard（GnuPG或GPG）是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。</p>]]></description>
+</item><item>
+    <title>windows启用wol唤醒</title>
+    <link>https://blog.fbicloud.com/wol/</link>
+    <pubDate>Sat, 28 Aug 2021 23:10:32 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/wol/</guid>
+    <description><![CDATA[windows启用wol唤醒]]></description>
+</item><item>
+    <title>使用zstd算法压缩文件</title>
+    <link>https://blog.fbicloud.com/zstd/</link>
+    <pubDate>Mon, 23 Aug 2021 00:10:16 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/zstd/</guid>
+    <description><![CDATA[使用zstd压缩文件]]></description>
+</item><item>
+    <title>解决Ryzen Master Driver没有正确安装</title>
+    <link>https://blog.fbicloud.com/amd-master/</link>
+    <pubDate>Thu, 12 Aug 2021 19:58:42 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/amd-master/</guid>
+    <description><![CDATA[<p>解决Ryzen Master Driver没有正确安装</p>]]></description>
+</item><item>
+    <title>微软远程桌面开启显卡加速</title>
+    <link>https://blog.fbicloud.com/rdp-gpu/</link>
+    <pubDate>Thu, 12 Aug 2021 15:31:54 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/rdp-gpu/</guid>
+    <description><![CDATA[显卡加速 win+r打开运行 输入gpedit.msc 依次找到计算机配置-&gt;管理模板-&gt;Windows组件-&gt;远程桌面服务-&]]></description>
+</item><item>
+    <title>解决win10下Git自动转换换行符</title>
+    <link>https://blog.fbicloud.com/git-crlf-lf/</link>
+    <pubDate>Wed, 11 Aug 2021 12:28:41 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/git-crlf-lf/</guid>
+    <description><![CDATA[windows系统的换行方式CRLF: &quot;\r\n&quot; Linux系统的换行方式LF: &quot;\n&quot; 在你使用git的时候，git会自动将代码当中与你当前系统不同的换行方]]></description>
+</item></channel>
+</rss>
