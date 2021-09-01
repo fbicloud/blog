@@ -38,4 +38,11 @@ jobs:
           coscmd config -a ${{ secrets.COS_ID }} -s ${{ secrets.COS_KEY }} -b ${{ secrets.COS_BUCKET_NAME }} -r ${{ secrets.COS_BUCKET_LOCATION }} -m 16 -p 10
           coscmd delete -r -f /
           coscmd upload -rs ${GITHUB_WORKSPACE}/ /
+
+      - name: Post_baidu
+        run: |
+          cd ${GITHUB_WORKSPACE}
+          sitemapfilename=sitemap.xml
+          sed '/${{ secrets.DOMAIN_NAME }}/!d' ${sitemapfilename} | sed 's/<\/loc><lastmod>.*//' | sed 's/.*<loc>//' > url.txt
+          curl -H 'Content-Type:text/plain' --data-binary @url.txt "http://data.zz.baidu.com/urls?site=https://${{ secrets.DOMAIN_NAME }}&token=${{ secrets.BAIDU_TOKEN }}"
           
