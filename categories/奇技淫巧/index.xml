@@ -3,7 +3,14 @@
         <title>奇技淫巧 - 分类 - FBICLOUD</title>
         <link>https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</link>
         <description>奇技淫巧 - 分类 - FBICLOUD</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Sep 2021 13:20:14 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+    <title>国内Linux下配置esp-idf开发环境</title>
+    <link>https://blog.fbicloud.com/esp-idf-install/</link>
+    <pubDate>Wed, 01 Sep 2021 13:20:14 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/esp-idf-install/</guid>
+    <description><![CDATA[<p>路随远 行则至</p>]]></description>
+</item><item>
     <title>解决Github pages百度收录问题</title>
     <link>https://blog.fbicloud.com/seo-github-pages/</link>
     <pubDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</pubDate>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://blog.fbicloud.com/crlf-lf/</guid>
     <description><![CDATA[前言 很长一段时间里，对于CRLF、CR、LF的理解仅限于不同操作系统下对换行符的定义。所谓知其然需知其所以然，从学习中找到乐趣，对知识的记忆]]></description>
-</item><item>
-    <title>一加五内核编译</title>
-    <link>https://blog.fbicloud.com/oneplus5-kernel-build/</link>
-    <pubDate>Tue, 10 Aug 2021 21:11:20 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://blog.fbicloud.com/oneplus5-kernel-build/</guid>
-    <description><![CDATA[警告 本次构建基于ubuntu 18.04 编译器Arm gcc 10.3 此源码暂未支持Clang 依赖安装 1 2 sudo apt update -y sudo apt install -y gcc g++ python make texinfo texlive bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev]]></description>
 </item></channel>
 </rss>

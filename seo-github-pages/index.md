@@ -74,8 +74,8 @@ jobs:
 
       - name: Install comcmd
         run: |
-          pip install coscmd
-
+        	pip install coscmd
+        	
       - name: Updates
         run: | 
           coscmd config -a ${{ secrets.COS_ID }} -s ${{ secrets.COS_KEY }} -b ${{ secrets.COS_BUCKET_NAME }} -r ${{ secrets.COS_BUCKET_LOCATION }} -m 16 -p 10
