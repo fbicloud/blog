@@ -44,5 +44,6 @@ jobs:
           cd ${GITHUB_WORKSPACE}
           sitemapfilename=sitemap.xml
           sed '/${{ secrets.DOMAIN_NAME }}/!d' ${sitemapfilename} | sed 's/<\/loc><lastmod>.*//' | sed 's/.*<loc>//' > url.txt
+          cat url.txt
           curl -H 'Content-Type:text/plain' --data-binary @url.txt "http://data.zz.baidu.com/urls?site=https://${{ secrets.DOMAIN_NAME }}&token=${{ secrets.BAIDU_TOKEN }}"
           
