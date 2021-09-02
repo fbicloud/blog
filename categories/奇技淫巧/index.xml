@@ -9,69 +9,69 @@
     <pubDate>Wed, 01 Sep 2021 13:20:14 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/esp-idf-install/</guid>
-    <description><![CDATA[<p>路随远 行则至</p>]]></description>
+    <description><![CDATA[路随远 行则至]]></description>
 </item><item>
     <title>解决Github pages百度收录问题</title>
     <link>https://blog.fbicloud.com/seo-github-pages/</link>
     <pubDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/seo-github-pages/</guid>
-    <description><![CDATA[<p>由于某种不可抗拒力 导致<em><strong>Github pages无法被百度收录</strong></em> 遂有了这篇文章</p>]]></description>
+    <description><![CDATA[不敢仗剑登城头 唯恐逐退三轮月]]></description>
 </item><item>
     <title>禁用Windows Defender</title>
     <link>https://blog.fbicloud.com/windows-defender/</link>
     <pubDate>Sun, 29 Aug 2021 19:51:05 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/windows-defender/</guid>
-    <description><![CDATA[<p><del>使用 Windows 安全中心保护您的数据和设备安全</del></p>]]></description>
+    <description><![CDATA[重剑无锋 大巧不工]]></description>
 </item><item>
     <title>GnuPG学习笔记</title>
     <link>https://blog.fbicloud.com/gpg-help/</link>
     <pubDate>Sun, 29 Aug 2021 13:01:59 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/gpg-help/</guid>
-    <description><![CDATA[<p>GNU Privacy Guard（GnuPG或GPG）是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。</p>]]></description>
+    <description><![CDATA[吾赠汝南柯一梦 汝还吾观道得道]]></description>
 </item><item>
     <title>windows启用wol唤醒</title>
     <link>https://blog.fbicloud.com/wol/</link>
     <pubDate>Sat, 28 Aug 2021 23:10:32 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/wol/</guid>
-    <description><![CDATA[windows启用wol唤醒]]></description>
+    <description><![CDATA[君子坐而论道 少年起而行之]]></description>
 </item><item>
     <title>使用zstd算法压缩文件</title>
     <link>https://blog.fbicloud.com/zstd/</link>
     <pubDate>Mon, 23 Aug 2021 00:10:16 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/zstd/</guid>
-    <description><![CDATA[使用zstd压缩文件]]></description>
+    <description><![CDATA[我心自在 动静皆我]]></description>
 </item><item>
     <title>解决Ryzen Master Driver没有正确安装</title>
     <link>https://blog.fbicloud.com/amd-master/</link>
     <pubDate>Thu, 12 Aug 2021 19:58:42 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/amd-master/</guid>
-    <description><![CDATA[<p>解决Ryzen Master Driver没有正确安装</p>]]></description>
+    <description><![CDATA[君子藏器于身 待时而动]]></description>
 </item><item>
     <title>微软远程桌面开启显卡加速</title>
     <link>https://blog.fbicloud.com/rdp-gpu/</link>
     <pubDate>Thu, 12 Aug 2021 15:31:54 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/rdp-gpu/</guid>
-    <description><![CDATA[显卡加速 win+r打开运行 输入gpedit.msc 依次找到计算机配置-&gt;管理模板-&gt;Windows组件-&gt;远程桌面服务-&]]></description>
+    <description><![CDATA[人能弘道 非道弘人]]></description>
 </item><item>
     <title>解决win10下Git自动转换换行符</title>
     <link>https://blog.fbicloud.com/git-crlf-lf/</link>
     <pubDate>Wed, 11 Aug 2021 12:28:41 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/git-crlf-lf/</guid>
-    <description><![CDATA[windows系统的换行方式CRLF: &quot;\r\n&quot; Linux系统的换行方式LF: &quot;\n&quot; 在你使用git的时候，git会自动将代码当中与你当前系统不同的换行方]]></description>
+    <description><![CDATA[红尘争渡百年土 灵魂腐朽看人间]]></description>
 </item><item>
     <title>CRLF CR LF详解</title>
     <link>https://blog.fbicloud.com/crlf-lf/</link>
     <pubDate>Wed, 11 Aug 2021 12:17:58 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://blog.fbicloud.com/crlf-lf/</guid>
-    <description><![CDATA[前言 很长一段时间里，对于CRLF、CR、LF的理解仅限于不同操作系统下对换行符的定义。所谓知其然需知其所以然，从学习中找到乐趣，对知识的记忆]]></description>
+    <description><![CDATA[我不修道 道自然来]]></description>
 </item></channel>
 </rss>

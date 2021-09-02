@@ -1,6 +1,6 @@
 # Linux设置代理
 
-
+<!--more-->
 ## linux终端设置代理
 
 ```bash

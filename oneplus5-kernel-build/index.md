@@ -1,6 +1,6 @@
 # 一加五内核编译
 
-
+<!--more-->
 {{< admonition warning >}}
 *本次构建基于ubuntu 18.04*  
 *编译器Arm gcc 10.3*  

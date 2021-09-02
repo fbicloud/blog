@@ -1,8 +1,10 @@
 # GnuPG学习笔记
 
-GNU Privacy Guard（GnuPG或GPG）是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。
-
 <!--more-->
+
+## 前言
+
+GNU Privacy Guard（GnuPG或GPG）是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥。GnuPG是自由软件，遵循IETF订定的OpenPGP技术标准设计，并与PGP保持兼容。
 
  ***{{< link "https://www.gnupg.org/" GnuPG主页 "去看看" >}}***
 

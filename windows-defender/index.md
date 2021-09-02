@@ -1,8 +1,7 @@
 # 禁用Windows Defender
 
-~~使用 Windows 安全中心保护您的数据和设备安全~~
 <!--more-->
-
+~~使用 Windows 安全中心保护您的数据和设备安全~~
 ## 禁用
 
 ```powershell

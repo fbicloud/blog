@@ -1,8 +1,5 @@
 # 解决Ryzen Master Driver没有正确安装
 
-
-解决Ryzen Master Driver没有正确安装
-
 <!--more-->
 ## 解决方法
 

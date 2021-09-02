@@ -1,5 +1,6 @@
 # 解决win10下Git自动转换换行符
 
+<!--more-->
 windows系统的换行方式`CRLF: "\r\n"`
 
 Linux系统的换行方式`LF: "\n"`
