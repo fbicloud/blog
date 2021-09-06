@@ -61,4 +61,7 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
+User-agent: baiduspider
+Disallow: /
+
 Sitemap: https://blog.fbicloud.com/sitemap.xml
