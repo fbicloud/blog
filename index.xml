@@ -3,9 +3,16 @@
         <title>FBICLOUD</title>
         <link>https://blog.fbicloud.com/</link>
         <description>随心而动 随意而行</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 02 Sep 2021 18:03:46 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 10 Sep 2021 19:27:18 &#43;0800</lastBuildDate>
             <atom:link href="https://blog.fbicloud.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>win10批量修改文件所有者</title>
+    <link>https://blog.fbicloud.com/win10-file-owner/</link>
+    <pubDate>Fri, 10 Sep 2021 19:27:18 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/win10-file-owner/</guid>
+    <description><![CDATA[国破山河在 城春草木生]]></description>
+</item><item>
     <title>Windows常用软件</title>
     <link>https://blog.fbicloud.com/win-app/</link>
     <pubDate>Thu, 02 Sep 2021 18:03:46 &#43;0800</pubDate>
@@ -68,12 +75,5 @@
     <author>作者</author>
     <guid>https://blog.fbicloud.com/wol/</guid>
     <description><![CDATA[君子坐而论道 少年起而行之]]></description>
-</item><item>
-    <title>使用zstd算法压缩文件</title>
-    <link>https://blog.fbicloud.com/zstd/</link>
-    <pubDate>Mon, 23 Aug 2021 00:10:16 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://blog.fbicloud.com/zstd/</guid>
-    <description><![CDATA[我心自在 动静皆我]]></description>
 </item></channel>
 </rss>
