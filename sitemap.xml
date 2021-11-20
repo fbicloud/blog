@@ -2,15 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://blog.fbicloud.com/categories/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blog.fbicloud.com/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://blog.fbicloud.com/categories/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.fbicloud.com/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.fbicloud.com/tags/git/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.fbicloud.com/tags/gpg/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.fbicloud.com/posts/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.fbicloud.com/tags/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.fbicloud.com/git-gpg/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</loc><lastmod>2021-11-20T19:41:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/ide/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blog.fbicloud.com/posts/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blog.fbicloud.com/tags/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/tools/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/vs-tools/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/win/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</loc><lastmod>2021-09-15T16:09:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/win10-file-owner/</loc><lastmod>2021-09-10T19:27:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/app/</loc><lastmod>2021-09-02T18:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/windows/</loc><lastmod>2021-09-02T18:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -18,7 +21,6 @@
             <loc>https://blog.fbicloud.com/tags/esp-idf/</loc><lastmod>2021-09-01T13:20:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/linux/</loc><lastmod>2021-09-01T13:20:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/esp-idf-install/</loc><lastmod>2021-09-01T13:20:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blog.fbicloud.com/tags/git/</loc><lastmod>2021-08-31T21:22:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/pages/</loc><lastmod>2021-08-31T21:22:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/seo/</loc><lastmod>2021-08-31T21:22:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/seo-github-pages/</loc><lastmod>2021-08-31T21:22:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -31,7 +33,6 @@
             <loc>https://blog.fbicloud.com/%E4%B8%AD%E8%80%B3%E7%82%8E/</loc><lastmod>2021-08-29T21:40:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/windows-defender/</loc><lastmod>2021-08-29T19:51:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/gpg-help/</loc><lastmod>2021-08-29T13:01:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blog.fbicloud.com/tags/gpg/</loc><lastmod>2021-08-29T13:01:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/wol/</loc><lastmod>2021-08-28T23:10:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/wol/</loc><lastmod>2021-08-28T23:10:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blog.fbicloud.com/tags/zstd/</loc><lastmod>2021-08-23T00:10:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

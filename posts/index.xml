@@ -3,7 +3,14 @@
         <title>所有文章 - FBICLOUD</title>
         <link>https://blog.fbicloud.com/posts/</link>
         <description>所有文章 | FBICLOUD</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 15 Sep 2021 16:09:51 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>win git使用gpg</title>
+    <link>https://blog.fbicloud.com/git-gpg/</link>
+    <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://blog.fbicloud.com/git-gpg/</guid>
+    <description><![CDATA[山山而川，世间而而。不过是见天地，见众生，见自己。]]></description>
+</item><item>
     <title>vs studio常用扩展</title>
     <link>https://blog.fbicloud.com/vs-tools/</link>
     <pubDate>Wed, 15 Sep 2021 16:09:51 &#43;0800</pubDate>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://blog.fbicloud.com/windows-defender/</guid>
     <description><![CDATA[重剑无锋 大巧不工]]></description>
-</item><item>
-    <title>GnuPG学习笔记</title>
-    <link>https://blog.fbicloud.com/gpg-help/</link>
-    <pubDate>Sun, 29 Aug 2021 13:01:59 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://blog.fbicloud.com/gpg-help/</guid>
-    <description><![CDATA[吾赠汝南柯一梦 汝还吾观道得道]]></description>
 </item></channel>
 </rss>
