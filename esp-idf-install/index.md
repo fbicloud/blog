@@ -42,7 +42,7 @@ EOF
 # 使用镜像
 git config --global url."https://hub.fastgit.org/".insteadof https://github.com/
 # 取消镜像
-git config --global --unset url.https://github.com/.insteadof
+git config --global --unset url.https://hub.fastgit.org/.insteadof
 ```
 
 ​    
