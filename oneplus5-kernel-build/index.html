@@ -139,9 +139,9 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo apt update -y
-sudo apt install -y gcc g++ python make texinfo texlive bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev unzip language-pack-zh-hans
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update -y
+</span></span><span class="line"><span class="cl">sudo apt install -y gcc g++ python make texinfo texlive bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev unzip language-pack-zh-hans
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="编译器下载">编译器下载</h2>
 <div class="highlight"><div class="chroma">
@@ -154,13 +154,13 @@ sudo apt install -y gcc g++ python make texinfo texlive bc bison build-essential
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ~/
-<span class="nb">export</span> <span class="nv">GCC</span><span class="o">=</span><span class="s2">&#34;gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu&#34;</span>
-wget <span class="s2">&#34;https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/</span><span class="si">${</span><span class="nv">GCC</span><span class="si">}</span><span class="s2">.tar.xz&#34;</span>
-xz -d <span class="si">${</span><span class="nv">GCC</span><span class="si">}</span>.tar.xz
-tar xvf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</span>.tar
-rm -rf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</span>.tar
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ~/
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GCC</span><span class="o">=</span><span class="s2">&#34;gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu&#34;</span>
+</span></span><span class="line"><span class="cl">wget <span class="s2">&#34;https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/</span><span class="si">${</span><span class="nv">GCC</span><span class="si">}</span><span class="s2">.tar.xz&#34;</span>
+</span></span><span class="line"><span class="cl">xz -d <span class="si">${</span><span class="nv">GCC</span><span class="si">}</span>.tar.xz
+</span></span><span class="line"><span class="cl">tar xvf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</span>.tar
+</span></span><span class="line"><span class="cl">rm -rf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</span>.tar
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="设置工具链环境变量">设置工具链环境变量</h2>
 <div class="highlight"><div class="chroma">
@@ -170,10 +170,10 @@ rm -rf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">ARCH</span><span class="o">=</span><span class="s2">&#34;arm64&#34;</span>
-<span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;~/</span><span class="si">${</span><span class="nv">GCC</span><span class="si">}</span><span class="s2">/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span>
-<span class="nb">export</span> <span class="nv">CROSS_COMPILE</span><span class="o">=</span><span class="s2">&#34;aarch64-none-linux-gnu-&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">ARCH</span><span class="o">=</span><span class="s2">&#34;arm64&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;~/</span><span class="si">${</span><span class="nv">GCC</span><span class="si">}</span><span class="s2">/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">CROSS_COMPILE</span><span class="o">=</span><span class="s2">&#34;aarch64-none-linux-gnu-&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="克隆内核源码">克隆内核源码</h2>
 <div class="highlight"><div class="chroma">
@@ -181,8 +181,8 @@ rm -rf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git clone -b blu_spark-10 https://github.com/engstk/op5.git
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone -b blu_spark-10 https://github.com/engstk/op5.git
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="编译">编译</h2>
 <div class="highlight"><div class="chroma">
@@ -193,11 +193,11 @@ rm -rf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">args</span><span class="o">=</span><span class="s2">&#34;-j16 \
-</span><span class="s2">    O=out&#34;</span>
-    make <span class="si">${</span><span class="nv">args</span><span class="si">}</span> blu_spark_defconfig
-    make <span class="si">${</span><span class="nv">args</span><span class="si">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">args</span><span class="o">=</span><span class="s2">&#34;-j16 \
+</span></span></span><span class="line"><span class="cl"><span class="s2">    O=out&#34;</span>
+</span></span><span class="line"><span class="cl">    make <span class="si">${</span><span class="nv">args</span><span class="si">}</span> blu_spark_defconfig
+</span></span><span class="line"><span class="cl">    make <span class="si">${</span><span class="nv">args</span><span class="si">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
@@ -237,7 +237,7 @@ rm -rf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</
         <div class="footer-container">
             <div class="footer-line">
                 <span id="run-time"></span>
-            </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://blog.fbicloud.com/" target="_blank">FBICLOUD</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://blog.fbicloud.com/" target="_blank">FBICLOUD</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
 
@@ -246,5 +246,5 @@ rm -rf <span class="si">${</span><span class="nv">GCC</span><span class="si">}</
             </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.115461812ca5b093f9bcc2f15d2693a6c90e8fe38dabf2375e5f18e1c348d97c.js" integrity="sha256-EVRhgSylsJP5vMLxXSaTpskOj&#43;ONq/I3Xl8Y4cNI2Xw="></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.b3aab24bd69b746d28f433f4a82ecfa1556a75ba5ef9f4caa2bcc7ab8d327c14.js" integrity="sha256-s6qyS9abdG0o9DP0qC7PoVVqdbpe&#43;fTKorzHq40yfBQ="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.f51938f3065a40ee841bcb558e4330e31fd26c0ea55343fff8770b88b0319a3c.js" integrity="sha256-9Rk48wZaQO6EG8tVjkMw4x/SbA6lU0P/&#43;HcLiLAxmjw="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script></body>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.49a2273b82f6f8b8852d90dc7db774be1628490bb6548699e6f9ad8d4e683bc1.js" integrity="sha256-SaInO4L2&#43;LiFLZDcfbd0vhYoSQu2VIaZ5vmtjU5oO8E="></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.06849e405f7b229a6e60b494d5e770325a9df5226ac08cff86ed97fdc48104be.js" integrity="sha256-BoSeQF97IppuYLSU1edwMlqd9SJqwIz/hu2X/cSBBL4="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.f51938f3065a40ee841bcb558e4330e31fd26c0ea55343fff8770b88b0319a3c.js" integrity="sha256-9Rk48wZaQO6EG8tVjkMw4x/SbA6lU0P/&#43;HcLiLAxmjw="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script></body>
 </html>
