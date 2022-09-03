@@ -44,6 +44,14 @@
     <description><![CDATA[路随远，行则至。]]></description>
 </item>
 <item>
+    <title>解决Github pages百度收录问题</title>
+    <link>https://blog.fbicloud.com/seo-github-pages/</link>
+    <pubDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/seo-github-pages/</guid>
+    <description><![CDATA[不敢仗剑登城头，唯恐逐退三轮月。]]></description>
+</item>
+<item>
     <title>禁用Windows Defender</title>
     <link>https://blog.fbicloud.com/windows-defender/</link>
     <pubDate>Sun, 29 Aug 2021 19:51:05 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>FBICLOUD</author>
     <guid>https://blog.fbicloud.com/zstd/</guid>
     <description><![CDATA[我心自在，动静皆我。]]></description>
-</item>
-<item>
-    <title>解决Ryzen Master Driver没有正确安装</title>
-    <link>https://blog.fbicloud.com/amd-master/</link>
-    <pubDate>Thu, 12 Aug 2021 19:58:42 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/amd-master/</guid>
-    <description><![CDATA[君子藏器于身，待时而动。]]></description>
 </item>
 </channel>
 </rss>
