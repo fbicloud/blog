@@ -12,13 +12,13 @@ mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 
 rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
 ```
 
-  
-
+​    
 
 
 ## 自定义
 
 ### 修改第一次启动初始化配置
+
 ```bash
 touch package/base-files/files/etc/uci-defaults/99_custom
 vim package/base-files/files/etc/uci-defaults/99_custom

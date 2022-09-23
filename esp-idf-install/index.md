@@ -74,4 +74,7 @@ export IDF_GITHUB_ASSETS=dl.espressif.com/github_assets
 echo ". ~/esp/esp-idf/export.sh" >> /etc/profile.d/esp-idf.sh
 ```
 
+​    
+  
+
 
