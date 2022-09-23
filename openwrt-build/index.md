@@ -13,7 +13,7 @@ rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wg
 ```
 
   
-  
+
 
 
 ## 自定义
@@ -23,7 +23,7 @@ rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wg
 touch package/base-files/files/etc/uci-defaults/99_custom
 vim package/base-files/files/etc/uci-defaults/99_custom
 ```
-### 保留配置文件编译
+### 保留配置文件升级编译
 ```bash
 ./scripts/diffconfig.sh > x86.config
 git pull
@@ -31,7 +31,8 @@ git pull
 ./scripts/feeds install -a
 rm -rf ./tmp && rm -rf .config
 cat x86.config > .config
-make menuconfig
+#make menuconfig
+make defconfig
 make V=s -j$(nproc)
 ```
 ### 旁路由
