@@ -3,9 +3,17 @@
         <title>FBICLOUD</title>
         <link>https://blog.fbicloud.com/</link>
         <description>随心而动 随意而行</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 23 Sep 2022 09:26:54 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 24 Sep 2022 10:43:09 &#43;0800</lastBuildDate>
             <atom:link href="https://blog.fbicloud.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Esxi安装笔记</title>
+    <link>https://blog.fbicloud.com/esxi-install/</link>
+    <pubDate>Sat, 24 Sep 2022 10:43:09 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/esxi-install/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Openwrt编译笔记</title>
     <link>https://blog.fbicloud.com/openwrt-build/</link>
     <pubDate>Fri, 23 Sep 2022 09:26:54 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>FBICLOUD</author>
     <guid>https://blog.fbicloud.com/%E5%92%B3%E5%97%BD/</guid>
     <description><![CDATA[道求因果，不可强求，但却是人定胜天。]]></description>
-</item>
-<item>
-    <title>中耳炎</title>
-    <link>https://blog.fbicloud.com/%E4%B8%AD%E8%80%B3%E7%82%8E/</link>
-    <pubDate>Sun, 29 Aug 2021 21:40:57 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/%E4%B8%AD%E8%80%B3%E7%82%8E/</guid>
-    <description><![CDATA[双手合十成为自己的神，双手张开比肩神明。]]></description>
 </item>
 </channel>
 </rss>
