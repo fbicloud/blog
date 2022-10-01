@@ -3,7 +3,15 @@
         <title>奇技淫巧 - 分类 - FBICLOUD</title>
         <link>https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</link>
         <description>奇技淫巧 - 分类 - FBICLOUD</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 24 Sep 2022 10:43:09 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 01 Oct 2022 12:47:36 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+    <title>Debian11安装笔记</title>
+    <link>https://blog.fbicloud.com/debian11-install/</link>
+    <pubDate>Sat, 01 Oct 2022 12:47:36 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/debian11-install/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Esxi安装笔记</title>
     <link>https://blog.fbicloud.com/esxi-install/</link>
     <pubDate>Sat, 24 Sep 2022 10:43:09 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>FBICLOUD</author>
     <guid>https://blog.fbicloud.com/windows-defender/</guid>
     <description><![CDATA[重剑无锋，大巧不工。]]></description>
-</item>
-<item>
-    <title>GnuPG学习笔记</title>
-    <link>https://blog.fbicloud.com/gpg-help/</link>
-    <pubDate>Sun, 29 Aug 2021 13:01:59 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/gpg-help/</guid>
-    <description><![CDATA[吾赠汝南柯一梦，汝还吾观道得道。]]></description>
 </item>
 </channel>
 </rss>
