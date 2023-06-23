@@ -3,7 +3,15 @@
         <title>奇技淫巧 - 分类 - FBICLOUD</title>
         <link>https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</link>
         <description>奇技淫巧 - 分类 - FBICLOUD</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 01 Oct 2022 12:47:36 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Apr 2023 09:41:58 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+    <title>Stable Diffusion Webui部署</title>
+    <link>https://blog.fbicloud.com/stable-diffusion-webui/</link>
+    <pubDate>Sat, 29 Apr 2023 09:41:58 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/stable-diffusion-webui/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Debian11安装笔记</title>
     <link>https://blog.fbicloud.com/debian11-install/</link>
     <pubDate>Sat, 01 Oct 2022 12:47:36 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>FBICLOUD</author>
     <guid>https://blog.fbicloud.com/seo-github-pages/</guid>
     <description><![CDATA[不敢仗剑登城头，唯恐逐退三轮月。]]></description>
-</item>
-<item>
-    <title>禁用Windows Defender</title>
-    <link>https://blog.fbicloud.com/windows-defender/</link>
-    <pubDate>Sun, 29 Aug 2021 19:51:05 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/windows-defender/</guid>
-    <description><![CDATA[重剑无锋，大巧不工。]]></description>
 </item>
 </channel>
 </rss>
