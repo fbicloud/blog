@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Gpg - 标签 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/tags/gpg/</link>
+        <description>Gpg - 标签 - FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/gpg/" rel="self" type="application/rss+xml" /><item>
+    <title>win git使用gpg</title>
+    <link>https://blog.fbicloud.com/git-gpg/</link>
+    <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/git-gpg/</guid>
+    <description><![CDATA[山山而川，世间而而。不过是见天地，见众生，见自己。]]></description>
+</item><item>
+    <title>GnuPG学习笔记</title>
+    <link>https://blog.fbicloud.com/gpg-help/</link>
+    <pubDate>Sun, 29 Aug 2021 13:01:59 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/gpg-help/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z3.ax1x.com/2021/08/29/h8TRiV.png" referrerpolicy="no-referrer">
+            </div>吾赠汝南柯一梦，汝还吾观道得道。]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Openwrt - 标签 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/tags/openwrt/</link>
+        <description>Openwrt - 标签 - FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 23 Sep 2022 09:26:54 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/openwrt/" rel="self" type="application/rss+xml" /><item>
+    <title>Openwrt编译笔记</title>
+    <link>https://blog.fbicloud.com/openwrt-build/</link>
+    <pubDate>Fri, 23 Sep 2022 09:26:54 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/openwrt-build/</guid>
+    <description><![CDATA[天心即我心，我意即天意。]]></description>
+</item></channel>
+</rss>

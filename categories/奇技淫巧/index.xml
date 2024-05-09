@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>奇技淫巧 - 分类 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</link>
+        <description>奇技淫巧 - 分类 - FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Apr 2023 09:41:58 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="self" type="application/rss+xml" /><item>
+    <title>Stable Diffusion Webui部署</title>
+    <link>https://blog.fbicloud.com/stable-diffusion-webui/</link>
+    <pubDate>Sat, 29 Apr 2023 09:41:58 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/stable-diffusion-webui/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Debian11安装笔记</title>
+    <link>https://blog.fbicloud.com/debian11-install/</link>
+    <pubDate>Sat, 01 Oct 2022 12:47:36 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/debian11-install/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Esxi安装笔记</title>
+    <link>https://blog.fbicloud.com/esxi-install/</link>
+    <pubDate>Sat, 24 Sep 2022 10:43:09 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/esxi-install/</guid>
+    <description><![CDATA[修行之道，本就是截取一线生机，逆天而行。]]></description>
+</item><item>
+    <title>Openwrt编译笔记</title>
+    <link>https://blog.fbicloud.com/openwrt-build/</link>
+    <pubDate>Fri, 23 Sep 2022 09:26:54 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/openwrt-build/</guid>
+    <description><![CDATA[天心即我心，我意即天意。]]></description>
+</item><item>
+    <title>win git使用gpg</title>
+    <link>https://blog.fbicloud.com/git-gpg/</link>
+    <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/git-gpg/</guid>
+    <description><![CDATA[山山而川，世间而而。不过是见天地，见众生，见自己。]]></description>
+</item><item>
+    <title>vs studio常用扩展</title>
+    <link>https://blog.fbicloud.com/vs-tools/</link>
+    <pubDate>Wed, 15 Sep 2021 16:09:51 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/vs-tools/</guid>
+    <description><![CDATA[书山有路勤为径，学海无涯苦作舟。]]></description>
+</item><item>
+    <title>win10批量修改文件所有者</title>
+    <link>https://blog.fbicloud.com/win10-file-owner/</link>
+    <pubDate>Fri, 10 Sep 2021 19:27:18 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/win10-file-owner/</guid>
+    <description><![CDATA[国破山河在，城春草木生。]]></description>
+</item><item>
+    <title>Windows常用软件</title>
+    <link>https://blog.fbicloud.com/win-app/</link>
+    <pubDate>Thu, 02 Sep 2021 18:03:46 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/win-app/</guid>
+    <description><![CDATA[大道五十，天衍四九，人遁其一。]]></description>
+</item><item>
+    <title>国内Linux下配置esp-idf开发环境</title>
+    <link>https://blog.fbicloud.com/esp-idf-install/</link>
+    <pubDate>Wed, 01 Sep 2021 13:20:14 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/esp-idf-install/</guid>
+    <description><![CDATA[路随远，行则至。]]></description>
+</item><item>
+    <title>解决Github pages百度收录问题</title>
+    <link>https://blog.fbicloud.com/seo-github-pages/</link>
+    <pubDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</pubDate><author>
+        <name>FBICLOUD</name>
+    </author><guid>https://blog.fbicloud.com/seo-github-pages/</guid>
+    <description><![CDATA[不敢仗剑登城头，唯恐逐退三轮月。]]></description>
+</item></channel>
+</rss>
