@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Pages - 标签 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/tags/pages/</link>
+        <description>Pages - 标签 - FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/pages/" rel="self" type="application/rss+xml" /><item>
+    <title>解决Github pages百度收录问题</title>
+    <link>https://blog.fbicloud.com/seo-github-pages/</link>
+    <pubDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/seo-github-pages/</guid>
+    <description><![CDATA[不敢仗剑登城头，唯恐逐退三轮月。]]></description>
+</item>
+</channel>
+</rss>

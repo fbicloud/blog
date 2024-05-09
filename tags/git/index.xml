@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Git - 标签 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/tags/git/</link>
+        <description>Git - 标签 - FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>win git使用gpg</title>
+    <link>https://blog.fbicloud.com/git-gpg/</link>
+    <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/git-gpg/</guid>
+    <description><![CDATA[山山而川，世间而而。不过是见天地，见众生，见自己。]]></description>
+</item>
+<item>
+    <title>解决Github pages百度收录问题</title>
+    <link>https://blog.fbicloud.com/seo-github-pages/</link>
+    <pubDate>Tue, 31 Aug 2021 21:22:40 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/seo-github-pages/</guid>
+    <description><![CDATA[不敢仗剑登城头，唯恐逐退三轮月。]]></description>
+</item>
+<item>
+    <title>解决win10下Git自动转换换行符</title>
+    <link>https://blog.fbicloud.com/git-crlf-lf/</link>
+    <pubDate>Wed, 11 Aug 2021 12:28:41 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/git-crlf-lf/</guid>
+    <description><![CDATA[红尘争渡百年土，灵魂腐朽看人间。]]></description>
+</item>
+</channel>
+</rss>

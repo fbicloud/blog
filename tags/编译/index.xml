@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>编译 - 标签 - FBICLOUD</title>
+        <link>https://blog.fbicloud.com/tags/%E7%BC%96%E8%AF%91/</link>
+        <description>编译 - 标签 - FBICLOUD</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 23 Sep 2022 09:26:54 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/%E7%BC%96%E8%AF%91/" rel="self" type="application/rss+xml" /><item>
+    <title>Openwrt编译笔记</title>
+    <link>https://blog.fbicloud.com/openwrt-build/</link>
+    <pubDate>Fri, 23 Sep 2022 09:26:54 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/openwrt-build/</guid>
+    <description><![CDATA[天心即我心，我意即天意。]]></description>
+</item>
+<item>
+    <title>一加五内核编译</title>
+    <link>https://blog.fbicloud.com/oneplus5-kernel-build/</link>
+    <pubDate>Tue, 10 Aug 2021 21:11:20 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/oneplus5-kernel-build/</guid>
+    <description><![CDATA[人行之处，是为道。修道修道，吾之所为，皆为道。]]></description>
+</item>
+</channel>
+</rss>
