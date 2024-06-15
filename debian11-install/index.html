@@ -32,7 +32,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.fbicloud.com\/debian11-install\/"
-        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "debian, 笔记","wordcount":  1286 ,
+        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "debian, 笔记","wordcount":  1391 ,
         "url": "https:\/\/blog.fbicloud.com\/debian11-install\/","datePublished": "2022-10-01T12:47:36+08:00","dateModified": "2022-10-01T12:47:36+08:00","publisher": {
             "@type": "Organization",
             "name": "FBICLOUD","logo": "https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"},"author": {
@@ -106,7 +106,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Debian11安装笔记</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://blog.fbicloud.com/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>FBICLOUD</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>奇技淫巧</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-01">2022-10-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1286 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-01">2022-10-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1391 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -140,9 +140,24 @@
 </span><span class="lnt">12
 </span><span class="lnt">13
 </span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; /etc/apt/sources.list <span class="s">&lt;&lt; EOF
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># debian 11</span>
+</span></span><span class="line"><span class="cl">cat &gt; /etc/apt/sources.list <span class="s">&lt;&lt; EOF
 </span></span></span><span class="line"><span class="cl"><span class="s">deb https://mirrors.ustc.edu.cn/debian/ bullseye main contrib non-free
 </span></span></span><span class="line"><span class="cl"><span class="s">deb-src https://mirrors.ustc.edu.cn/debian/ bullseye main contrib non-free
 </span></span></span><span class="line"><span class="cl"><span class="s">
@@ -154,6 +169,19 @@
 </span></span></span><span class="line"><span class="cl"><span class="s">
 </span></span></span><span class="line"><span class="cl"><span class="s">deb https://mirrors.ustc.edu.cn/debian-security/ bullseye-security main contrib non-free
 </span></span></span><span class="line"><span class="cl"><span class="s">deb-src https://mirrors.ustc.edu.cn/debian-security/ bullseye-security main contrib non-free
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># debian 12</span>
+</span></span><span class="line"><span class="cl">cat &gt; /etc/apt/sources.list <span class="s">&lt;&lt; EOF
+</span></span></span><span class="line"><span class="cl"><span class="s"># 默认注释了源码仓库，如有需要可自行取消注释
+</span></span></span><span class="line"><span class="cl"><span class="s">deb http://mirrors.ustc.edu.cn/debian bookworm main contrib non-free non-free-firmware
+</span></span></span><span class="line"><span class="cl"><span class="s"># deb-src http://mirrors.ustc.edu.cn/debian bookworm main contrib non-free non-free-firmware
+</span></span></span><span class="line"><span class="cl"><span class="s">deb http://mirrors.ustc.edu.cn/debian bookworm-updates main contrib non-free non-free-firmware
+</span></span></span><span class="line"><span class="cl"><span class="s"># deb-src http://mirrors.ustc.edu.cn/debian bookworm-updates main contrib non-free non-free-firmware
+</span></span></span><span class="line"><span class="cl"><span class="s"> 
+</span></span></span><span class="line"><span class="cl"><span class="s"># backports 软件源，请按需启用
+</span></span></span><span class="line"><span class="cl"><span class="s"># deb http://mirrors.ustc.edu.cn/debian bookworm-backports main contrib non-free non-free-firmware
+</span></span></span><span class="line"><span class="cl"><span class="s"># deb-src http://mirrors.ustc.edu.cn/debian bookworm-backports main contrib non-free non-free-firmware
 </span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
 </span></span><span class="line"><span class="cl">apt update -y <span class="o">&amp;&amp;</span> apt upgrade -y
 </span></span></code></pre></td></tr></table>

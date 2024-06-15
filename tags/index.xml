@@ -3,7 +3,23 @@
         <title>Tags - 标签 - FBICLOUD</title>
         <link>https://blog.fbicloud.com/tags/</link>
         <description>Tags - 标签 - FBICLOUD</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Apr 2023 09:41:58 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 15 Jun 2024 15:45:20 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Dsm</title>
+    <link>https://blog.fbicloud.com/tags/dsm/</link>
+    <pubDate>Sat, 15 Jun 2024 15:45:20 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/tags/dsm/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Pve</title>
+    <link>https://blog.fbicloud.com/tags/pve/</link>
+    <pubDate>Sat, 15 Jun 2024 15:45:20 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/tags/pve/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Ai绘画</title>
     <link>https://blog.fbicloud.com/tags/ai%E7%BB%98%E7%94%BB/</link>
     <pubDate>Sat, 29 Apr 2023 09:41:58 &#43;0800</pubDate>
@@ -65,22 +81,6 @@
     <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate>
     <author>FBICLOUD</author>
     <guid>https://blog.fbicloud.com/tags/git/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Gpg</title>
-    <link>https://blog.fbicloud.com/tags/gpg/</link>
-    <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/tags/gpg/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Ide</title>
-    <link>https://blog.fbicloud.com/tags/ide/</link>
-    <pubDate>Wed, 15 Sep 2021 16:09:51 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/tags/ide/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
