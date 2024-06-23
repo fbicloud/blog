@@ -3,9 +3,17 @@
         <title>FBICLOUD</title>
         <link>https://blog.fbicloud.com/</link>
         <description>随心而动 随意而行</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 15 Jun 2024 15:45:20 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 23 Jun 2024 13:48:27 &#43;0800</lastBuildDate>
             <atom:link href="https://blog.fbicloud.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>docker安装脚本</title>
+    <link>https://blog.fbicloud.com/docker-install/</link>
+    <pubDate>Sun, 23 Jun 2024 13:48:27 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/docker-install/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>pve安装笔记</title>
     <link>https://blog.fbicloud.com/pve-install/</link>
     <pubDate>Sat, 15 Jun 2024 15:45:20 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>FBICLOUD</author>
     <guid>https://blog.fbicloud.com/win-app/</guid>
     <description><![CDATA[大道五十，天衍四九，人遁其一。]]></description>
-</item>
-<item>
-    <title>国内Linux下配置esp-idf开发环境</title>
-    <link>https://blog.fbicloud.com/esp-idf-install/</link>
-    <pubDate>Wed, 01 Sep 2021 13:20:14 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/esp-idf-install/</guid>
-    <description><![CDATA[路随远，行则至。]]></description>
 </item>
 </channel>
 </rss>

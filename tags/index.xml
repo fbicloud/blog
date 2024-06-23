@@ -3,7 +3,15 @@
         <title>Tags - 标签 - FBICLOUD</title>
         <link>https://blog.fbicloud.com/tags/</link>
         <description>Tags - 标签 - FBICLOUD</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 15 Jun 2024 15:45:20 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 23 Jun 2024 13:48:27 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Docker</title>
+    <link>https://blog.fbicloud.com/tags/docker/</link>
+    <pubDate>Sun, 23 Jun 2024 13:48:27 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/tags/docker/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Pve</title>
     <link>https://blog.fbicloud.com/tags/pve/</link>
     <pubDate>Sat, 15 Jun 2024 15:45:20 &#43;0800</pubDate>
@@ -73,14 +81,6 @@
     <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate>
     <author>FBICLOUD</author>
     <guid>https://blog.fbicloud.com/tags/git/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Gpg</title>
-    <link>https://blog.fbicloud.com/tags/gpg/</link>
-    <pubDate>Sat, 20 Nov 2021 19:41:13 &#43;0800</pubDate>
-    <author>FBICLOUD</author>
-    <guid>https://blog.fbicloud.com/tags/gpg/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
