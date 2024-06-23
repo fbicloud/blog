@@ -4,36 +4,35 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Stable Diffusion Webui部署 - FBICLOUD</title><meta name="Description" content="随心而动 随意而行"><meta property="og:url" content="https://blog.fbicloud.com/stable-diffusion-webui/">
+        <title>pve安装笔记 - FBICLOUD</title><meta name="Description" content="随心而动 随意而行"><meta property="og:url" content="https://blog.fbicloud.com/pve-install/">
   <meta property="og:site_name" content="FBICLOUD">
-  <meta property="og:title" content="Stable Diffusion Webui部署">
+  <meta property="og:title" content="pve安装笔记">
   <meta property="og:description" content="随心而动 随意而行">
   <meta property="og:locale" content="zh-CN">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-04-29T09:41:58+08:00">
-    <meta property="article:modified_time" content="2023-04-29T09:41:58+08:00">
-    <meta property="article:tag" content="Ai绘画">
-    <meta property="article:tag" content="Stable-Diffusion-Webui">
+    <meta property="article:published_time" content="2024-06-15T15:45:20+08:00">
+    <meta property="article:modified_time" content="2024-06-15T15:45:20+08:00">
+    <meta property="article:tag" content="Pve">
     <meta property="og:image" content="https://blog.fbicloud.com/safari-pinned-tab.svg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://blog.fbicloud.com/safari-pinned-tab.svg"><meta name="twitter:title" content="Stable Diffusion Webui部署">
+<meta name="twitter:image" content="https://blog.fbicloud.com/safari-pinned-tab.svg"><meta name="twitter:title" content="pve安装笔记">
 <meta name="twitter:description" content="">
       <meta name="twitter:site" content="@xxxx">
 <meta name="application-name" content="FBICLOUD">
-<meta name="apple-mobile-web-app-title" content="FBICLOUD"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/safari-pinned-tab.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blog.fbicloud.com/stable-diffusion-webui/" /><link rel="prev" href="https://blog.fbicloud.com/debian11-install/" /><link rel="next" href="https://blog.fbicloud.com/pve-install/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="FBICLOUD"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/safari-pinned-tab.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blog.fbicloud.com/pve-install/" /><link rel="prev" href="https://blog.fbicloud.com/stable-diffusion-webui/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><meta name="google-site-verification" content="RzsMsHMkQdMLFYjGfx9PBBVad9fzOalwr1tPX8fb2i8" /><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Stable Diffusion Webui部署",
+        "headline": "pve安装笔记",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/blog.fbicloud.com\/stable-diffusion-webui\/"
-        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "ai绘画, stable-diffusion-webui","wordcount":  248 ,
-        "url": "https:\/\/blog.fbicloud.com\/stable-diffusion-webui\/","datePublished": "2023-04-29T09:41:58+08:00","dateModified": "2023-04-29T09:41:58+08:00","publisher": {
+            "@id": "https:\/\/blog.fbicloud.com\/pve-install\/"
+        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "pve","wordcount":  241 ,
+        "url": "https:\/\/blog.fbicloud.com\/pve-install\/","datePublished": "2024-06-15T15:45:20+08:00","dateModified": "2024-06-15T15:45:20+08:00","publisher": {
             "@type": "Organization",
             "name": "FBICLOUD","logo": "https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"},"author": {
                 "@type": "Person",
@@ -104,9 +103,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Stable Diffusion Webui部署</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">pve安装笔记</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://blog.fbicloud.com/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>FBICLOUD</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>奇技淫巧</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-29">2023-04-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 248 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-15">2024-06-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 241 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -115,48 +114,52 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#需要的工具">需要的工具</a></li>
-    <li><a href="#克隆stable-diffusion-webui">克隆stable-diffusion-webui</a></li>
-    <li><a href="#miniconda3配置">Miniconda3配置</a>
+    <li><a href="#虚拟usb启动">虚拟usb启动</a></li>
+    <li><a href="#pve删除local-lvm分区">PVE删除local-lvm分区</a></li>
+    <li><a href="#禁用tso-gso">禁用TSO GSO</a>
       <ul>
-        <li>
-          <ul>
-            <li><a href="#创建虚拟环境">创建虚拟环境</a></li>
-            <li><a href="#激活虚拟环境">激活虚拟环境</a></li>
-            <li><a href="#更换pip源为国内">更换pip源为国内</a></li>
-            <li><a href="#运行stable-diffusion-webui">运行stable-diffusion-webui</a></li>
-            <li><a href="#启动参数">启动参数</a></li>
-          </ul>
-        </li>
+        <li><a href="#临时禁用-重启失效">临时禁用 重启失效</a></li>
+        <li><a href="#持久化配置">持久化配置</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="需要的工具">需要的工具</h2>
-<ul>
-<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Git</li>
-<li><i class="far fa-check-square fa-fw" aria-hidden="true"></i> Miniconda3</li>
-</ul>
-<h2 id="克隆stable-diffusion-webui">克隆stable-diffusion-webui</h2>
+            </div><div class="content" id="content"><h2 id="虚拟usb启动">虚拟usb启动</h2>
+<p><a href="https://post.smzdm.com/p/a2036n3n/" target="_blank" rel="noopener noreffer ">参考评论区</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">AUTOMATIC1111</span><span class="p">/</span><span class="nb">stable-diffusion</span><span class="n">-webui</span><span class="p">.</span><span class="py">git</span> <span class="p">-</span><span class="n">-depth</span><span class="p">=</span><span class="mf">1</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">args: -device &#39;qemu-xhci,addr=0x18&#39; -drive &#39;id=synoboot,file=/root/synoboot.img,if=none,format=raw&#39; -device &#39;usb-storage,id=synoboot,drive=synoboot,bootindex=1&#39;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="miniconda3配置">Miniconda3配置</h2>
-<p>生成<code>.condarc</code>文件</p>
+</div><h2 id="pve删除local-lvm分区">PVE删除local-lvm分区</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">conda</span> <span class="n">config</span> <span class="p">-</span><span class="n">-set</span> <span class="n">show_channel_urls</span> <span class="n">yes</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">lvremove pve/data
+</span></span><span class="line"><span class="cl">lvextend -l +100%FREE -r pve/root
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>编辑<code>.condarc</code>加入以下配置</p>
+</div><p>在数据中心-存储中删除local-lvm分区，并编辑local，在内容一项中勾选所有可选项</p>
+<h2 id="禁用tso-gso">禁用TSO GSO</h2>
+<p>i226-v 网卡启用TSO GSO会频繁宕</p>
+<h3 id="临时禁用-重启失效">临时禁用 重启失效</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># eno1 为网卡</span>
+</span></span><span class="line"><span class="cl">ethtool -K eno1 tso off gso off
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="持久化配置">持久化配置</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -174,82 +177,48 @@
 </span><span class="lnt">13
 </span><span class="lnt">14
 </span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">channels</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">defaults</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">show_channel_urls</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">default_channels</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">custom_channels</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">conda-forge</span><span class="p">:</span><span class="w"> </span><span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">msys2</span><span class="p">:</span><span class="w"> </span><span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">bioconda</span><span class="p">:</span><span class="w"> </span><span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">menpo</span><span class="p">:</span><span class="w"> </span><span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pytorch</span><span class="p">:</span><span class="w"> </span><span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pytorch-lts</span><span class="p">:</span><span class="w"> </span><span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">simpleitk</span><span class="p">:</span><span class="w"> </span><span class="l">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><p>运行 <code>conda clean -i</code> 清除索引缓存，保证用的是镜像站提供的索引。</p>
-<h4 id="创建虚拟环境">创建虚拟环境</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">conda create -n stable-diffusion-webui python=3.10.6
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="激活虚拟环境">激活虚拟环境</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">conda activate stable-diffusion-webui
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="更换pip源为国内">更换pip源为国内</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">python</span> <span class="n">-m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">-i</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">pypi</span><span class="p">.</span><span class="py">tuna</span><span class="p">.</span><span class="py">tsinghua</span><span class="p">.</span><span class="py">edu</span><span class="p">.</span><span class="n">cn</span><span class="p">/</span><span class="n">simple</span> <span class="p">-</span><span class="n">-upgrade</span> <span class="n">pip</span>
-</span></span><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">config</span> <span class="nb">set </span><span class="n">global</span><span class="p">.</span><span class="nb">index-url</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">pypi</span><span class="p">.</span><span class="py">tuna</span><span class="p">.</span><span class="py">tsinghua</span><span class="p">.</span><span class="py">edu</span><span class="p">.</span><span class="n">cn</span><span class="p">/</span><span class="n">simple</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="运行stable-diffusion-webui">运行stable-diffusion-webui</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="p">.\</span><span class="nb">webui-user</span><span class="p">.</span><span class="py">bat</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="启动参数">启动参数</h4>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># webui-user.bat
-</span></span><span class="line"><span class="cl"># 修改局域网允许访问 安装插件
-</span></span><span class="line"><span class="cl">COMMANDLINE_ARGS=--listen --xformers --enable-insecure-extension-access
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="c1"># Path to /etc/network/if-up.d/disabletso</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Disables TCP offloading on all ifaces</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Inspired by: @Michelunik https://serverfault.com/a/422554/62953</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">RUN</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="k">case</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">IF_NO_TOE</span><span class="p">,,</span><span class="si">}</span><span class="s2">&#34;</span> in
+</span></span><span class="line"><span class="cl">    no<span class="p">|</span>off<span class="p">|</span>false<span class="p">|</span>disable<span class="p">|</span>disabled<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">RUN</span><span class="o">=</span><span class="nb">false</span>
+</span></span><span class="line"><span class="cl">    <span class="p">;;</span>
+</span></span><span class="line"><span class="cl"><span class="k">esac</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Other offloading options that could be disabled (not TCP related):</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#  sg tso ufo gso gro lro rxvlan txvlan rxhash</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># see man ethtool</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$MODE</span><span class="s2">&#34;</span> <span class="o">=</span> start -a <span class="s2">&#34;</span><span class="nv">$RUN</span><span class="s2">&#34;</span> <span class="o">=</span> <span class="nb">true</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">TOE_OPTIONS</span><span class="o">=</span><span class="s2">&#34;tso gso&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> TOE_OPTION in <span class="nv">$TOE_OPTIONS</span><span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    /sbin/ethtool --offload <span class="s2">&#34;</span><span class="nv">$IFACE</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$TOE_OPTION</span><span class="s2">&#34;</span> off <span class="p">&amp;</span>&gt;/dev/null <span class="o">||</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">  <span class="k">done</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2023-04-29</span>
+                <span>更新于 2024-06-15</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -260,14 +229,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/ai%E7%BB%98%E7%94%BB/">Ai绘画</a>,&nbsp;<a href="/tags/stable-diffusion-webui/">Stable-Diffusion-Webui</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/pve/">Pve</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/debian11-install/" class="prev" rel="prev" title="Debian11安装笔记"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Debian11安装笔记</a>
-            <a href="/pve-install/" class="next" rel="next" title="pve安装笔记">pve安装笔记<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/stable-diffusion-webui/" class="prev" rel="prev" title="Stable Diffusion Webui部署"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Stable Diffusion Webui部署</a></div>
 </div>
 <div id="comments"></div></article></div>
             </main><footer class="footer">
