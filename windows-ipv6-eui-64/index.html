@@ -4,35 +4,36 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>docker安装脚本 - FBICLOUD</title><meta name="Description" content="随心而动 随意而行"><meta property="og:url" content="https://blog.fbicloud.com/docker-install/">
+        <title>Windows使用本地链接IPv6地址(EUI-64) - FBICLOUD</title><meta name="Description" content="随心而动 随意而行"><meta property="og:url" content="https://blog.fbicloud.com/windows-ipv6-eui-64/">
   <meta property="og:site_name" content="FBICLOUD">
-  <meta property="og:title" content="docker安装脚本">
+  <meta property="og:title" content="Windows使用本地链接IPv6地址(EUI-64)">
   <meta property="og:description" content="随心而动 随意而行">
   <meta property="og:locale" content="zh-CN">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-06-23T13:48:27+08:00">
-    <meta property="article:modified_time" content="2024-06-23T13:48:27+08:00">
-    <meta property="article:tag" content="Docker">
+    <meta property="article:published_time" content="2024-06-23T13:55:42+08:00">
+    <meta property="article:modified_time" content="2024-06-23T13:55:42+08:00">
+    <meta property="article:tag" content="Win">
+    <meta property="article:tag" content="Ipv6">
     <meta property="og:image" content="https://blog.fbicloud.com/safari-pinned-tab.svg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://blog.fbicloud.com/safari-pinned-tab.svg"><meta name="twitter:title" content="docker安装脚本">
+<meta name="twitter:image" content="https://blog.fbicloud.com/safari-pinned-tab.svg"><meta name="twitter:title" content="Windows使用本地链接IPv6地址(EUI-64)">
 <meta name="twitter:description" content="">
       <meta name="twitter:site" content="@xxxx">
 <meta name="application-name" content="FBICLOUD">
-<meta name="apple-mobile-web-app-title" content="FBICLOUD"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/safari-pinned-tab.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blog.fbicloud.com/docker-install/" /><link rel="prev" href="https://blog.fbicloud.com/pve-install/" /><link rel="next" href="https://blog.fbicloud.com/windows-ipv6-eui-64/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="FBICLOUD"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/safari-pinned-tab.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blog.fbicloud.com/windows-ipv6-eui-64/" /><link rel="prev" href="https://blog.fbicloud.com/docker-install/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><meta name="google-site-verification" content="RzsMsHMkQdMLFYjGfx9PBBVad9fzOalwr1tPX8fb2i8" /><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "docker安装脚本",
+        "headline": "Windows使用本地链接IPv6地址(EUI-64)",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/blog.fbicloud.com\/docker-install\/"
-        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "docker","wordcount":  85 ,
-        "url": "https:\/\/blog.fbicloud.com\/docker-install\/","datePublished": "2024-06-23T13:48:27+08:00","dateModified": "2024-06-23T13:48:27+08:00","publisher": {
+            "@id": "https:\/\/blog.fbicloud.com\/windows-ipv6-eui-64\/"
+        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "win, ipv6","wordcount":  203 ,
+        "url": "https:\/\/blog.fbicloud.com\/windows-ipv6-eui-64\/","datePublished": "2024-06-23T13:55:42+08:00","dateModified": "2024-06-23T13:55:42+08:00","publisher": {
             "@type": "Organization",
             "name": "FBICLOUD","logo": "https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"},"author": {
                 "@type": "Person",
@@ -103,60 +104,51 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">docker安装脚本</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Windows使用本地链接IPv6地址(EUI-64)</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://blog.fbicloud.com/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>FBICLOUD</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>奇技淫巧</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-23">2024-06-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 85 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-23">2024-06-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 203 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><div class="highlight"><div class="chroma">
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#windows-eui-64">Windows EUI-64</a>
+      <ul>
+        <li><a href="#查看ipv6协议配置">查看ipv6协议配置</a></li>
+        <li><a href="#使用eui-64方法">使用EUI-64方法</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="windows-eui-64">Windows EUI-64</h2>
+<p>通常情况下，本地链接地址是由MAC地址来生成的，EUI-64规范。在Windows Vista和Windows 2008之前的情况下也是使用EUI-64规范，但是Windows为了安全开始使用了随机生成，使用了临时地址。目前Linux和Mac还是使用EUI-64生成IPv6地址。</p>
+<h3 id="查看ipv6协议配置">查看ipv6协议配置</h3>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/usr/bin/env bash
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>sudo apt-get install <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>     apt-transport-https <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>     ca-certificates <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>     curl <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>     gnupg <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>     lsb-release -y
-</span></span><span class="line"><span class="cl"> 
-</span></span><span class="line"><span class="cl">curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg <span class="p">|</span> sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-</span></span><span class="line"><span class="cl"> 
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://mirrors.ustc.edu.cn/docker-ce/linux/debian \
-</span></span></span><span class="line"><span class="cl"><span class="s2">  </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> stable&#34;</span> <span class="p">|</span> sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
-</span></span><span class="line"><span class="cl"> 
-</span></span><span class="line"><span class="cl">sudo apt-get update -y
-</span></span><span class="line"><span class="cl">sudo apt-get install docker-ce docker-ce-cli containerd.io -y
-</span></span><span class="line"><span class="cl"> 
-</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> docker
-</span></span><span class="line"><span class="cl">sudo systemctl start docker
-</span></span><span class="line"><span class="cl">sudo usermod -aG docker <span class="nv">$USER</span>
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">get-netipv6protocol</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="使用eui-64方法">使用EUI-64方法</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># 关闭随机生成（需管理员权限）</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Set-NetIPv6Protocol</span> <span class="n">-RandomizeIdentifiers</span> <span class="n">Disabled</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># 关闭临时地址（需管理员权限）</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Set-NetIPv6Protocol</span> <span class="n">-UseTemporaryAddresses</span> <span class="n">Disabled</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
@@ -174,14 +166,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/docker/">Docker</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/win/">Win</a>,&nbsp;<a href="/tags/ipv6/">Ipv6</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/pve-install/" class="prev" rel="prev" title="pve安装笔记"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>pve安装笔记</a>
-            <a href="/windows-ipv6-eui-64/" class="next" rel="next" title="Windows使用本地链接IPv6地址(EUI-64)">Windows使用本地链接IPv6地址(EUI-64)<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/docker-install/" class="prev" rel="prev" title="docker安装脚本"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>docker安装脚本</a></div>
 </div>
 <div id="comments"></div></article></div>
             </main><footer class="footer">

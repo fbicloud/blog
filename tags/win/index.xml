@@ -3,7 +3,15 @@
         <title>Win - 标签 - FBICLOUD</title>
         <link>https://blog.fbicloud.com/tags/win/</link>
         <description>Win - 标签 - FBICLOUD</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 15 Sep 2021 16:09:51 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/win/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 23 Jun 2024 13:55:42 &#43;0800</lastBuildDate><atom:link href="https://blog.fbicloud.com/tags/win/" rel="self" type="application/rss+xml" /><item>
+    <title>Windows使用本地链接IPv6地址(EUI-64)</title>
+    <link>https://blog.fbicloud.com/windows-ipv6-eui-64/</link>
+    <pubDate>Sun, 23 Jun 2024 13:55:42 &#43;0800</pubDate>
+    <author>FBICLOUD</author>
+    <guid>https://blog.fbicloud.com/windows-ipv6-eui-64/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>vs studio常用扩展</title>
     <link>https://blog.fbicloud.com/vs-tools/</link>
     <pubDate>Wed, 15 Sep 2021 16:09:51 &#43;0800</pubDate>

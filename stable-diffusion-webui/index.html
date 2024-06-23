@@ -32,7 +32,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.fbicloud.com\/stable-diffusion-webui\/"
-        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "ai绘画, stable-diffusion-webui","wordcount":  248 ,
+        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "ai绘画, stable-diffusion-webui","wordcount":  266 ,
         "url": "https:\/\/blog.fbicloud.com\/stable-diffusion-webui\/","datePublished": "2023-04-29T09:41:58+08:00","dateModified": "2023-04-29T09:41:58+08:00","publisher": {
             "@type": "Organization",
             "name": "FBICLOUD","logo": "https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"},"author": {
@@ -106,7 +106,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Stable Diffusion Webui部署</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://blog.fbicloud.com/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>FBICLOUD</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>奇技淫巧</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-29">2023-04-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 248 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-29">2023-04-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 266 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -198,9 +198,17 @@
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">conda create -n stable-diffusion-webui python=3.10.6
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">conda</span> <span class="n">create</span> <span class="n">-n</span> <span class="nb">stable-diffusion</span><span class="n">-webui</span> <span class="n">python</span><span class="p">=</span><span class="mf">3.10</span><span class="p">.</span><span class="py">6</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 删除</span>
+</span></span><span class="line"><span class="cl"><span class="n">conda</span> <span class="n">remove</span> <span class="p">-</span><span class="n">-name</span> <span class="n">env_name</span> <span class="p">-</span><span class="n">-all</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 列出</span>
+</span></span><span class="line"><span class="cl"><span class="n">conda</span> <span class="n">info</span> <span class="p">-</span><span class="n">-envs</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="激活虚拟环境">激活虚拟环境</h4>
