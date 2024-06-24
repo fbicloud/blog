@@ -31,7 +31,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.fbicloud.com\/pve-install\/"
-        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "pve","wordcount":  241 ,
+        },"image": ["https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"],"genre": "posts","keywords": "pve","wordcount":  293 ,
         "url": "https:\/\/blog.fbicloud.com\/pve-install\/","datePublished": "2024-06-15T15:45:20+08:00","dateModified": "2024-06-15T15:45:20+08:00","publisher": {
             "@type": "Organization",
             "name": "FBICLOUD","logo": "https:\/\/blog.fbicloud.com\/safari-pinned-tab.svg"},"author": {
@@ -105,7 +105,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">pve安装笔记</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://blog.fbicloud.com/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>FBICLOUD</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>奇技淫巧</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-15">2024-06-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 241 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-15">2024-06-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 293 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -122,6 +122,8 @@
         <li><a href="#持久化配置">持久化配置</a></li>
       </ul>
     </li>
+    <li><a href="#通过slaac获取ipv6">通过SLAAC获取IPV6</a></li>
+    <li><a href="#禁用ipv6">禁用IPV6</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h2 id="虚拟usb启动">虚拟usb启动</h2>
@@ -212,6 +214,44 @@
 </span></span><span class="line"><span class="cl">    /sbin/ethtool --offload <span class="s2">&#34;</span><span class="nv">$IFACE</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$TOE_OPTION</span><span class="s2">&#34;</span> off <span class="p">&amp;</span>&gt;/dev/null <span class="o">||</span> <span class="nb">true</span>
 </span></span><span class="line"><span class="cl">  <span class="k">done</span>
 </span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="通过slaac获取ipv6">通过SLAAC获取IPV6</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/etc/sysctl.conf
+</span></span><span class="line"><span class="cl">net.ipv6.conf.all.accept_ra<span class="o">=</span><span class="m">2</span>
+</span></span><span class="line"><span class="cl">net.ipv6.conf.default.accept_ra<span class="o">=</span><span class="m">2</span>
+</span></span><span class="line"><span class="cl">net.ipv6.conf.vmbr0.accept_ra<span class="o">=</span><span class="m">2</span>
+</span></span><span class="line"><span class="cl">net.ipv6.conf.all.autoconf<span class="o">=</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl">net.ipv6.conf.default.autoconf<span class="o">=</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl">net.ipv6.conf.vmbr0.autoconf<span class="o">=</span><span class="m">1</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="禁用ipv6">禁用IPV6</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># /etc/sysctl.conf
+</span></span><span class="line"><span class="cl"># disable ipv6
+</span></span><span class="line"><span class="cl">net.ipv6.conf.all.disable_ipv6 = 1
+</span></span><span class="line"><span class="cl">net.ipv6.conf.default.disable_ipv6 = 1
+</span></span><span class="line"><span class="cl">net.ipv6.conf.lo.disable_ipv6 = 1
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
